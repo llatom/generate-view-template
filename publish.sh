@@ -26,8 +26,8 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
   # update package.json version to be used in the build
   npm version $VERSION --message "Release $VERSION"
 
-  # build
-  yarn build
+  # # build
+  # yarn build
 
   # push
   git push origin refs/tags/v$VERSION

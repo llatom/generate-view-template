@@ -17,9 +17,6 @@
     "type": "git",
     "url": "git+https://github.com/cderek/generate-view-template.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/cderek"
-  },
   "keywords": [
     "cli",
     "generate"
