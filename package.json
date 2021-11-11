@@ -1,0 +1,33 @@
+{
+  "name": "generate-view-template",
+  "version": "0.0.1",
+  "description": "generate-view-template",
+  "main": "lib/index.js",
+  "scripts": {
+    "init": "node ./lib/index.js $*"
+  },
+  "bin": {
+    "generate-view-template": "lib/index.js",
+    "gvt": "lib/index.js"
+  },
+  "files": [
+    "lib/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cderek/generate-view-template.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/cderek"
+  },
+  "keywords": [
+    "cli",
+    "generate"
+  ],
+  "author": "cderek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cderek/generate-view-template/issues"
+  },
+  "homepage": "https://github.com/cderek/generate-view-template#readme"
+}
